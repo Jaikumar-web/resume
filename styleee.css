@@ -1,0 +1,125 @@
+ /* ***********Global declaration*************/
+html{
+	box-sizing:border-box;
+}
+* ,*:before,*:afer{
+    box-sizing:inherit;
+}
+
+body{
+	font-style: italic;
+	background:#F7F7F2;
+	padding:0;
+	margin:0;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+img{
+	width:400px;
+}
+a{
+	color:#D64550;
+
+}
+a:hover{
+	text-decoration:none;
+}
+.content_wrap{
+	max-width:800px;
+	width:85%;
+	margin:0 auto;
+	padding:60px 0 ;
+}
+h1 , h2{
+	font-family: 'Caveat', cursive;
+	font-size:4rem;
+	text-decoration-style:solid;
+}
+p{
+	line-height:20px;
+}
+h3+p{
+	font-style:italic;
+}
+h3~p{
+	margin:0;
+}
+
+/*  project profile    ********
+***********************************/
+header{
+	background:#241E4E;
+	color:#F7FFF7;
+}
+
+/*  ************Project portfolio**
+**********************************/
+.pro{
+	background=:#D8D0C1;
+}
+
+.pro a{
+	color:#F7FFF7;
+	background:#241E4E;
+	padding:8px;
+	text-decoration:none;
+	border-radius:6px;
+	display:inline-block;
+}
+.pro a:hover{
+	background:rgba(47 ,48 ,97, 80%);
+
+}
+.pro-item{
+	overflow:hidden;
+	border-bottom:1px dashed #343434;
+}
+
+
+/***************experience*********/
+.exp{
+	background:#7FC8F8;
+}
+.job-item{
+display:grid;
+grid-template-columns: 1fr 2fr;
+column-gap: 20px;
+}
+
+
+/***************education certification*********/
+.cert{
+background-image:url(pancil.jpg);
+background-size:cover;
+background-position:top right;
+}
+
+/**************footer**********/
+footer{
+	background:#AB9F9D;
+	
+
+
+}
+.content{
+	list-style-type: none;
+	padding:0;
+	display:flex;
+	justify-content: center;
+
+}
+.content a{
+	padding: 15px;
+	display:inline-block;
+}
+
+/************** Responsive site*******/
+@media screen and (min-width:740px)
+{
+	.pro-item img{
+	float:left;
+	margin-right:20px;
+ }
+}
+
